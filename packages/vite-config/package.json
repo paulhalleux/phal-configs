@@ -1,6 +1,6 @@
 {
   "name": "@paulhalleux/vite-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Some Vite configurations for my projects",
   "author": "HALLEUX, Paul",
   "repository": {
