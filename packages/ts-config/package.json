@@ -1,0 +1,17 @@
+{
+  "name": "@paulhalleux/ts-config",
+  "version": "0.0.0",
+  "description": "Some TypeScript configurations for my projects",
+  "author": "HALLEUX, Paul",
+  "repository": {
+    "url": "https://github.com/paulhalleux/phal-configs.git",
+    "directory": "packages/ts-config",
+    "type": "git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "publish": "yarn publish"
+  }
+}

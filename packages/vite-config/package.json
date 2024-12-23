@@ -1,0 +1,24 @@
+{
+  "name": "@paulhalleux/vite-config",
+  "version": "1.0.0",
+  "description": "Some Vite configurations for my projects",
+  "author": "HALLEUX, Paul",
+  "repository": {
+    "url": "https://github.com/paulhalleux/phal-configs.git",
+    "directory": "packages/vite-config",
+    "type": "git"
+  },
+  "type": "module",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.9",
+    "vite-plugin-dts": "^4.3.0",
+    "vite-plugin-eslint": "^1.8.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "publish": "yarn publish"
+  }
+}
