@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "repository": {
-    "url": "https://github.com/paulhalleux/phal-configs.git",
+    "url": "git+https://github.com/paulhalleux/phal-configs.git",
     "type": "git"
   },
   "workspaces": [
@@ -10,11 +10,5 @@
   ],
   "devDependencies": {
     "lerna": "^6.6.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "publish": "lerna publish"
   }
 }
