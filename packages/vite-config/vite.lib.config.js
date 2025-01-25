@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 import {defineConfig} from "vite";
 import dts from "vite-plugin-dts";
 import eslint from "vite-plugin-eslint";
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [
@@ -12,6 +13,7 @@ export default defineConfig({
     dts({
       insertTypesEntry: true,
     }),
+    tailwindcss()
   ],
   assetsInclude: ["/sb-preview/runtime.js"],
   build: {
